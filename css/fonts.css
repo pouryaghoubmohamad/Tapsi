@@ -1,0 +1,30 @@
+/* Webfont: Yekan */
+@font-face {
+	font-family: 'Yekan';
+	src:	url('/assets/fonts/Yekan.css/Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('/assets/fonts/Yekan.css/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../assets/fonts/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('assets/fonts/Yekan.css/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('assets/fonts/Yekan.css/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('assets/fonts/Yekan.css/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+
+
+
+@font-face {
+  font-family: FontName;
+  src: url('/assets/Farsi-Digits/Tanha-FD.eot');
+  src: url('/assets//Farsi-Digits/Tanha-FD.eot') format('FontName-opentype'),
+       url('/assets//Farsi-Digits/Tanha-FD.woff') format('woff'),
+       url('/assets/Farsi-Digits/Tanha-FD.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body , button , input ,textarea{
+    font-family: 'Yekan';
+}
